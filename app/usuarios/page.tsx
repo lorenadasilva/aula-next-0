@@ -4,9 +4,9 @@ export default function ListaUsuarios () {
         <>
          <h1> Usuarios </h1>
 
-         <p> Usuarios 1 </p>
-         <p> Usuarios 2 </p>
-         <p> Usuarios 3 </p>
+         <p> <Link href={'/usuarios/1'}>Usuarios 1 </Link></p>
+         <p> <Link href={'/usuarios/2'}>Usuarios 2 </Link></p>
+         <p> <Link href={'/usuarios/3'}>Usuarios 3 </Link></p>
 
           <p><Link href={'/'}> Voltar </Link></p>
         
